@@ -1,0 +1,97 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f3f7;
+    color: #333;
+}
+
+/* Container */
+.signup-container {
+    text-align: center;
+    padding: 50px 20px;
+    background: #ffd700;
+    background-image: url('https://www.example.com/indian_heritage_image.jpg'); /* Add your custom background image */
+    background-size: cover;
+    color: #fff;
+    border-bottom: 5px solid #f2c600;
+}
+
+.signup-container h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/* Signup Sections */
+.signup-sections {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.signup-box {
+    flex: 1;
+    padding: 25px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: all 0.3s ease;
+    max-width: 300px;
+}
+
+.signup-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.signup-box h2 {
+    font-size: 1.5rem;
+    color: #ff6f00;
+    margin-bottom: 10px;
+}
+
+.signup-box p {
+    font-size: 1.1rem;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.signup-button {
+    text-decoration: none;
+    padding: 12px 25px;
+    background-color: #ff6f00;
+    color: #fff;
+    border-radius: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
+
+.signup-button:hover {
+    background-color: #ff8f00;
+}
+
+/* Divider */
+.divider {
+    width: 2px;
+    background-color: #ff6f00;
+    height: 100%;
+    margin: 0 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .signup-sections {
+        flex-direction: column;
+    }
+    .divider {
+        display: none;
+    }
+}

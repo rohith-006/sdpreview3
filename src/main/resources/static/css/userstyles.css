@@ -1,0 +1,130 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #FF9933; /* Saffron color */
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-left .logo {
+    height: 50px;
+}
+
+.navbar-right {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-button {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.nav-button:hover {
+    background-color: #2F4F4F;
+    transition: 0.3s ease;
+}
+
+/* Main Content */
+.main-content {
+    margin-top: 80px;
+    padding: 20px;
+    text-align: center;
+}
+
+.quote-section h1 {
+    font-size: 48px;
+    color: #FF4500; /* Vibrant color */
+}
+
+.quote-section .quote {
+    font-size: 24px;
+    font-style: italic;
+    color: #696969;
+}
+
+/* Heritage Section */
+.heritage-section {
+    background-color: #fff8dc; /* Light yellow */
+    padding: 30px;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.heritage-section h2 {
+    font-size: 36px;
+    color: #FF6347; /* Tomato red */
+}
+
+.heritage-section p {
+    font-size: 18px;
+    color: #333333;
+    margin-top: 10px;
+}
+
+/* About Us Section */
+.about-us {
+    padding: 20px;
+    background-color: #fff8dc;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.about-us h2 {
+    font-size: 36px;
+    color: #FF6347;
+}
+
+.about-us p {
+    font-size: 18px;
+    color: #333333;
+}
+
+/* Social Media Section */
+.social-media {
+    margin: 20px 0;
+}
+
+.social-icon {
+    font-size: 20px;
+    color: #FF6347;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social-icon:hover {
+    color: #2F4F4F;
+}
+
+/* Sponsors Section */
+.sponsors {
+    margin-top: 30px;
+}
+
+.sponsor-logos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.sponsor-logo {
+    height: 100px;
+    width: auto;
+}
